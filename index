@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infografía - Hotel Aurora</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🏨 Sistema Hotel Aurora</h1>
+    <p>Procedimientos Almacenados en Oracle</p>
+</header>
+
+<div class="contenedor">
+
+    <div class="card">
+        <h2>📌 Problema</h2>
+        <ul>
+            <li>Pérdida de información</li>
+            <li>Errores en reservas</li>
+            <li>Facturación incorrecta</li>
+            <li>Gestión manual ineficiente</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>💡 Solución</h2>
+        <ul>
+            <li>Base de datos relacional</li>
+            <li>Automatización con procedimientos</li>
+            <li>Control de reservas y servicios</li>
+            <li>Generación automática de facturas</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🗂️ Tablas Principales</h2>
+        <div class="grid">
+            <div>👤 Huesped</div>
+            <div>🛏️ Habitacion</div>
+            <div>📅 Reserva</div>
+            <div>🍽️ Servicio</div>
+            <div>💳 Factura</div>
+            <div>🧾 ConsumoServicio</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>⚙️ Procedimientos</h2>
+        <ul>
+            <li>Registrar huésped</li>
+            <li>Crear reserva</li>
+            <li>Registrar consumo</li>
+            <li>Generar factura</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>✅ Validaciones</h2>
+        <ul>
+            <li>Precios mayores a 0</li>
+            <li>Fechas correctas</li>
+            <li>Datos no duplicados</li>
+            <li>Cantidades válidas</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📊 Resultados</h2>
+        <ul>
+            <li>Registro correcto de huéspedes</li>
+            <li>Control eficiente de reservas</li>
+            <li>Evita errores de datos</li>
+            <li>Facturación automática precisa</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🎯 Conclusión</h2>
+        <p>
+            El sistema mejora la eficiencia del hotel, automatiza procesos clave
+            y garantiza la integridad de la información, siendo una solución escalable
+            y segura para la gestión hotelera.
+        </p>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>© 2026 - Proyecto Hotel Aurora</p>
+</div>
+
+</body>
+</html>
